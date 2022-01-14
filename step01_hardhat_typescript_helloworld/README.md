@@ -35,3 +35,28 @@
     ```
 
 15. Use `npx hardhat run scripts/deploy.ts --network ropsten` to deploy on ropsten network. After deployment it can also be verified from the etherscan using the deployed address.
+
+16. Create "scripts/set-greetings-one.ts" to deploy the contract and execute a function after deployemnt. This can be tested on local network or on the ropsten network.
+
+    ```js
+    import { ethers } from 'hardhat';
+
+    async function main() {
+      const Greeter = await ethers.getContractFactory('Greeter');
+      const greeter = await Greeter.deploy('Hello, Hardhat!');
+
+      await greeter.deployed();
+
+      console.log('Greeter deployed to:', greeter.address);
+
+      const result = await greeter.greet();
+      console.log('Result = ', result);
+    }
+
+    main().catch((error) => {
+      console.error(error);
+      process.exitCode = 1;
+    });
+    ```
+
+17. Create "scripts/set-greetings-two.ts" to use the deployed contract to perform some function.
