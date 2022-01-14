@@ -2,7 +2,9 @@
 
 ## Solidity Tutorial in English on Facebook
 
-### Class Notes
+### Sections
+
+- [Hardhat typescript helloworld](./step01_hardhat_typescript_helloworld)
 
 ### Class 28 Videos
 
