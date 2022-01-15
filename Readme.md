@@ -5,6 +5,7 @@
 ### Sections
 
 - [Hardhat typescript helloworld](./step01_hardhat_typescript_helloworld)
+- [hardhat simple storage](./step02_hardhat_simple_storage)
 
 ### Class 28 Videos
 
