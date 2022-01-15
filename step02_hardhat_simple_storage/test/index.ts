@@ -1,19 +1,17 @@
-import { expect } from "chai";
-import { ethers } from "hardhat";
+import { ethers } from 'hardhat';
+import { expect } from 'chai';
 
-describe("Greeter", function () {
-  it("Should return the new greeting once it's changed", async function () {
-    const Greeter = await ethers.getContractFactory("Greeter");
-    const greeter = await Greeter.deploy("Hello, world!");
-    await greeter.deployed();
+describe('SimpleStorage', function () {
+  it("Should return the new data once it's changed", async function () {
+    const Storage = await ethers.getContractFactory('SimpleStorage');
+    const storage = await Storage.deploy();
+    await storage.deployed();
 
-    expect(await greeter.greet()).to.equal("Hello, world!");
-
-    const setGreetingTx = await greeter.setGreeting("Hola, mundo!");
+    const setUpdateTx = await storage.updateData(10);
 
     // wait until the transaction is mined
-    await setGreetingTx.wait();
+    await setUpdateTx.wait();
 
-    expect(await greeter.greet()).to.equal("Hola, mundo!");
+    expect(await storage.readData()).to.equal(10);
   });
 });
