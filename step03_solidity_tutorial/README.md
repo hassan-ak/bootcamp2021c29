@@ -1,5 +1,14 @@
 # Step03 - Solidity Tutorial
 
+## Reading Material
+
+- [Solidity Tutorial](https://www.tutorialspoint.com/solidity/index.htm)
+- [Solidity, Blockchain, and Smart Contract Course – Beginner to Expert Python Tutorial](https://www.youtube.com/watch?v=M576WGiDBdQ&ab_channel=freeCodeCamp.org)
+- [Solidity Tutorial](https://www.youtube.com/playlist?list=PLbbtODcOYIoE0D6fschNU4rqtGFRpk3ea)
+- [Types](https://www.bitdegree.org/learn/solidity-types)
+- [Variables](https://www.bitdegree.org/learn/solidity-variables)
+- [Functions](https://www.bitdegree.org/learn/solidity-functions)
+
 ## Steps to code
 
 1. Create new directory using `mkdir step03_solidity_tutorial`
