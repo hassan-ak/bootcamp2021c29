@@ -13,9 +13,18 @@ contract SolidityVariables {
         Global Variables − Special variables exists in the global namespace used to get information about the blockchain.
     */
 
+    // *********************** //
+    // ******** Rules ******** //
+    // *********************** //
+    /*
+    No reserve Words
+    Solidity variable names should not start with a numeral (0-9). They must begin with a letter or an underscore character. For example, 123test is an invalid variable name but _123test is a valid one.
+    Solidity variable names are case-sensitive.
+    */
+
     uint256 storedData; // State variable
 
-    constructor() public {
+    constructor() {
         storedData = 10;
     }
 
