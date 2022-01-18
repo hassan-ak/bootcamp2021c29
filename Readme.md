@@ -1,6 +1,6 @@
 # bootcamp2021c29 - Introduction to Decentralized Computing - Ethereum, Smart Contracts, DeFi, NFT, and DAO
 
-## Solidity Tutorial Part01
+## Solidity Tutorial Part 01
 
 ### Sections
 
