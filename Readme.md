@@ -8,7 +8,7 @@
 - [hardhat simple storage](./step02_hardhat_simple_storage)
 - [Solidity tutorial](./step03_solidity_tutorial)
 
-### Class 28 Videos
+### Class 29 Videos
 
 - [English YouTube](https://www.youtube.com/watch?v=NcZMDsjJ-OA&ab_channel=CertifiedUnicornDeveloper)
 - [English Facebook](https://www.facebook.com/trouble.maker121/videos/448321510117377?_rdc=1&_rdr)
